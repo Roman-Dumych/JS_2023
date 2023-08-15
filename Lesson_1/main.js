@@ -44,7 +44,7 @@ let middleName = 'Ігорович';
 
 let lastName = 'Думич';
 
-let person = `${firstName} ${middleName} ${lastName}`;
+let person = `${lastName} ${firstName} ${middleName}`;
 console.log(person);
 
 // За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
