@@ -64,7 +64,7 @@ console.log(person);
 {
     let name = prompt('Ваше імʼя');
     let middleName = prompt('По батькові');
-    let year = prompt('Скільки вам років?');
+    let year = +prompt('Скільки вам років?');
 
     let result = `${name} ${middleName} ${year}`
     console.log(result);
