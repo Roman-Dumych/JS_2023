@@ -108,40 +108,48 @@
         {name: 'max', age: 31, status: true}
     ];
 // За допомоги циклу вивести:
-// користувачів зі статусом true:
     for (const user of users) {
         if (user.status)
-            document.write(`<div>
+            for (const userKey in user) {
 
- <ul>
- <li>${user.name} ${user.status}</li>
- </ul>
- 
- </div>`)
+                document.write(`<div>
+
+<ul>
+<li>${userKey} ${user[userKey]}</li>
+</ul>
+
+</div>`)
+            }
     }
 
 // користувачів зі статусом false:
     for (const user of users) {
         if (!user.status)
-            document.write(`<div>
+            for (const userKey in user) {
+
+                document.write(`<div>
 
 <ul>
-<li>${user.name} ${user.status}</li>
+<li>${userKey} ${user[userKey]}</li>
 </ul>
 
 </div>`)
+            }
     }
 
 // користувачів які старші за 30 років
     for (const user of users) {
         if (user.age > 30)
-            document.write(`<div>
+            for (const userKey in user) {
+
+                document.write(`<div>
 
 <ul>
-<li>${user.name} ${user.age}</li>
+<li>${userKey} ${user[userKey]}</li>
 </ul>
 
 </div>`)
+            }
     }
 
 }
