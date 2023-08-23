@@ -238,19 +238,9 @@ if (value1 > value2) {
 
 }
 
-{
-    let x = '';
-
-    if (x = 0) {
-        x = 'default'
-    } else if (x = 'false') {
-        x = 'default'
-    }
-}
 // З файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен
 // його елемент на тривалість навчання.
 // У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
-
 let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
     {title: 'Java Complex', monthDuration: 6},
