@@ -72,56 +72,43 @@
 
 // Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
 // Вивести кожну змінну за допомогою: console.log
-{
-    let a = 'hello';
-    let b = 'owu';
-    let c = 'com';
-    let d = 'ua';
-    let e = 1;
-    let f = 10;
-    let g = -999;
-    let h = 123;
-    let i = 3.14;
-    let j = 2.7;
-    let k = 16;
-    let l = true;
-    let m = false;
+let q = 'hello';
+let w = 'owu';
+let e = 'com';
+let r = 'ua';
+let t = 1;
+let y = 10;
+let u = -999;
+let i = 123;
+let o = 3.14;
+let p = 2.7;
+let f = 16;
+let s = true;
+let d = false;
 
-    console.log(a, b, c, d, e, f, g, h, i, j, k, l, m);
-}
+console.log(q, w, e, r, t, y, u, i, o, p, f, s, d);
 
 // Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
-{
-    let firstName = 'Роман';
-    let middleName = 'Ігорович';
-    let lastName = 'Думич';
+let lastName = 'Думич';
+let firstName = 'Роман';
+let middleName = 'Ігорович';
 
-    let person = `${firstName} ${middleName} ${lastName}`
-    console.log(person);
-}
+console.log(`${lastName} ${firstName} ${middleName}`);
 
 // За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
-// let a = 100; let b = '100'; let c = true;
-{
-    let a = 100;
-    let b = '100';
-    let c = true;
+let a = 100;
+let b = '100';
+let c = true;
 
-    console.log(typeof a);
-    console.log(typeof b);
-    console.log(typeof c);
-}
+console.log(typeof a, typeof b, typeof c);
 
 // Додаткове для тих хто цікавився prompt`oм
 // За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
-{
-    let firstName = prompt('Введіть імʼя');
-    let middleName = prompt('Введіть імʼя по-батькові');
-    let lastYear = +prompt('Введіть вік');
+let FirstName = prompt('Ваше імʼя:');
+let MiddleName = prompt('Ваше імʼя по батькові:');
+let old = +prompt('Скільки вам років?');
 
-    let res = `${firstName} ${middleName} ${lastYear}`;
-    console.log(res);
-}
+console.log(`${FirstName} ${MiddleName} ${old}`);
 
 
 
