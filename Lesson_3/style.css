@@ -1,4 +1,16 @@
-.main img {
+.main {
     width: 200px;
     height: 200px;
+}
+
+.true {
+    color: red;
+}
+
+.false {
+    color: darkseagreen;
+}
+
+.age {
+    color: violet;
 }
